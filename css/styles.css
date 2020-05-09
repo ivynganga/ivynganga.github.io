@@ -4,3 +4,6 @@
 	box-shadow:  50px 50px 100px #cf0042, 
              -50px -50px 100px #ff0062;
 }
+.inner {
+  padding: 30px;
+}
