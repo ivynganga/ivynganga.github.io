@@ -23,6 +23,7 @@ body {
 	align-items: center;
 	height: 100vh;
 	font-size: 1.4rem;
+	overflow: hidden;
 }
 
 h1,
