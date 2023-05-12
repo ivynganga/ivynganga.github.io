@@ -1,8 +1,7 @@
 
 :root {
 
-	--bg-dark: #071931;
-	--bg-darker: #061528;
+	--bg-dark: #02031c;
 	--white: #fff;
 	--gray-light: #e0e0e0;
 	--gray-dark: #343a40;
@@ -15,7 +14,7 @@
 
 
 body {
-	background: var(--bg-darker);
+	background: var(--bg-dark);
 	color: var(--gray-light);
 	font-family: Jost, sans-serif;
 	display: flex;
