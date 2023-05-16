@@ -1,0 +1,66 @@
+
+:root {
+
+	--bg-dark: #02031c;
+	--white: #fff;
+	--gray-light: #e0e0e0;
+	--gray-dark: #343a40;
+}
+
+@font-face {
+    font-family: Jost;
+    src: url('/fonts/Jost.ttf');
+}
+
+
+body {
+	background: var(--bg-dark);
+	color: var(--gray-light);
+	font-family: Jost, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-size: 1.4rem;
+	overflow: hidden;
+}
+
+h1,
+h2,
+.h1,
+.h2 {
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+	font-weight: 500;
+	line-height: 1.2;
+}
+
+h1, .h1 {
+  font-size: 2.75rem;
+}
+
+h2, .h2 {
+  font-size: 2.25rem;
+}
+p {
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+
+a {
+	color: var(--gray-light);
+	text-decoration: underline;
+	background-color: transparent;
+}
+
+.container {
+	text-align: center;
+}
+
+.social {
+	margin: 40px 0px;
+}
+
+.social a {
+	margin: 0 10px
+}
