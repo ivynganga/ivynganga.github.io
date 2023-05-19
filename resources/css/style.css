@@ -98,12 +98,18 @@ li {
 }
 
 .social {
-	padding: 140px 0px 0;
+	padding: 150px 0px 0;
 	bottom: 0;
+	position: relative;
 }
 
-.social a, .sub-heading i{
-	margin: 0 20px
+.social a{
+	margin: 0 30px;
+
+} 
+
+.sub-heading i{
+	margin: 0 20px;
 }
 
 .fa-2xs {
