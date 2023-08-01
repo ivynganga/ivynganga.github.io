@@ -59,12 +59,6 @@ a {
 	background-color: transparent;
 }
 
-ul {
-	margin: 0;
-	position: absolute;
-	text-align: justify;
-}
-
 li {
 	list-style-type: none;
 }
@@ -93,19 +87,23 @@ li {
 	left: 6%;
     position: relative;
 }
+
+.work {
+	margin: 0;
+}
+
 .each-work-child {
 	display: inline-block;
 }
 
 .social {
-	padding: 150px 0px 0;
+	padding: 60px 0px 0;
 	bottom: 0;
 	position: relative;
 }
 
 .social a{
 	margin: 0 30px;
-
 } 
 
 .sub-heading i{

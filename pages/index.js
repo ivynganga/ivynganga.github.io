@@ -28,38 +28,32 @@ export default function Index() {
 				</p>
 			</div>
 			<div class="content">
-				<div className=""><h5>Some Works</h5></div>
+				<div><h5>Some Works</h5></div>
 				<div className="work-container">
-					<ul className="work">
-						<li>
-							<div className="each-work">
-								<div className="each-work-child"><span>Some Crypto App</span></div>
-								<div className="each-work-child">
-									<Link href="https://some-crypto-app.herokuapp.com/" target="_blank"><i class="fa-solid fa-link fa-2xs"></i></Link>
-									<Link href="https://github.com/ivynganga/some-crypto-app" target="_blank"><i class="fa-brands fa-github fa-2xs"></i></Link>
+					<div className="work">
+						<div className="each-work">
+							<div className="each-work-child"><span>Some Crypto App</span></div>
+							<div className="each-work-child">
+								<Link href="https://some-crypto-app.herokuapp.com/" target="_blank"><i class="fa-solid fa-link fa-2xs"></i></Link>
+								<Link href="https://github.com/ivynganga/some-crypto-app" target="_blank"><i class="fa-brands fa-github fa-2xs"></i></Link>
 
-								</div>
 							</div>
-						</li>
-						<li>
-							<div className="each-work">
-								<div className="each-work-child"><span>Some Weather App</span></div>
-								<div className="each-work-child">
-									<Link href="https://some-weather-app.herokuapp.com" target="_blank"><i class="fa-solid fa-link fa-2xs"></i></Link>
-									<Link href="https://github.com/ivynganga/some-weather-app" target="_blank"><i class="fa-brands fa-github fa-2xs"></i></Link>
-								</div>
+						</div>
+						<div className="each-work">
+							<div className="each-work-child"><span>Some Weather App</span></div>
+							<div className="each-work-child">
+								<Link href="https://some-weather-app.herokuapp.com" target="_blank"><i class="fa-solid fa-link fa-2xs"></i></Link>
+								<Link href="https://github.com/ivynganga/some-weather-app" target="_blank"><i class="fa-brands fa-github fa-2xs"></i></Link>
 							</div>
-						</li>
-						<li>
-							<div className="each-work">
-								<div className="each-work-child"><span>Portfolio</span></div>
-								<div className="each-work-child">
-									<Link href="/"><i class="fa-solid fa-link fa-2xs"></i></Link>
-									<Link href="https://github.com/ivynganga/ivynganga.github.io" target="_blank"><i class="fa-brands fa-github fa-2xs"></i></Link>
-								</div>
+						</div>
+						<div className="each-work">
+							<div className="each-work-child"><span>Portfolio</span></div>
+							<div className="each-work-child">
+								<Link href="/"><i class="fa-solid fa-link fa-2xs"></i></Link>
+								<Link href="https://github.com/ivynganga/ivynganga.github.io" target="_blank"><i class="fa-brands fa-github fa-2xs"></i></Link>
 							</div>
-						</li>
-					</ul>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="social">
